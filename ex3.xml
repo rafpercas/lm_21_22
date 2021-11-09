@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edificios>
+    <edificio direccion="C/Acordeon, n5" numPlantas="3">
+        <plantas>
+            <planta numero="1" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+            <planta numero="2" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+            <planta numero="3" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>                        
+        </plantas>
+    </edificio>
+    <edificio direccion="C/Acordeon, n6" numPlantas="3">
+        <plantas>
+            <planta numero="1" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+            <planta numero="2" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>   
+            <planta numero="3" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta> 
+        </plantas>
+    </edificio>
+    <edificio direccion="C/Acordeon, n7" numPlantas="3">
+        <plantas>
+            <planta numero="1" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+            <planta numero="2" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+            <planta numero="3" m2="15">
+                <empleados>
+                    <empleado>
+                        <puesto>Director</puesto>
+                        <datosP>Rafael Perez</datosP>
+                        <extension>9073</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Jorge Perez</datosP>
+                        <extension>9072</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Barbara Lanza</datosP>
+                        <extension>9071</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Marketing</puesto>
+                        <datosP>Azahara Perez</datosP>
+                        <extension>9070</extension>
+                    </empleado>
+                    <empleado>
+                        <puesto>Administrativo</puesto>
+                        <datosP>Josue Valor</datosP>
+                        <extension>9050</extension>
+                    </empleado>                                                                               
+                </empleados>
+            </planta>
+        </plantas>
+    </edificio>        
+</edificios>

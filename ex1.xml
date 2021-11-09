@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneo>
+    <nombre> Los Peores </nombre>
+    <fecha>
+        <inicio>10 de Mayo</inicio>
+        <fin>28 de Junio</fin>
+    </fecha>
+    <partido>
+        <p1>
+            <fecha fecha="10 de mayo"> </fecha>
+            <jugadores j1="Rafael Perez" j2="Simone Biles"></jugadores>
+            <resultados s1="6/2" s2="3/6" s3="2/6"></resultados>
+        </p1>
+        <p2>
+            <fecha fecha="18 de mayo"> </fecha>
+            <jugadores j1="Jorge Perez" j2="Barbara Lanza"></jugadores>
+            <resultados s1="6/0" s2="1/6" s3="6/4"></resultados>
+        </p2>
+        <p3>
+            <fecha fecha="24 de mayo"> </fecha>
+            <jugadores j1="Maria Jose Romero" j2="Sandra Romero"></jugadores>
+            <resultados s1="0/6" s2="0/6" s3="0/6"></resultados>
+        </p3>
+        <p4>
+            <fecha fecha="26 de mayo"> </fecha>
+            <jugadores j1="Manuel Alonso" j2="Abraham Quevedo"></jugadores>
+            <resultados s1="6/1" s2="4/6" s3="3/6"></resultados>
+        </p4>
+        <p5>
+            <fecha fecha="28 de mayo"> </fecha>
+            <jugadores j1="Manuel Solano" j2="Francisco Solano"></jugadores>
+            <resultados s1="6/2" s2="6/4" s3="4/6"></resultados>
+        </p5>
+        <p6>
+            <fecha fecha="10 de junio"> </fecha>
+            <jugadores j1="Azahara Perez" j2="Nevada Perez"></jugadores>
+            <resultados s1="6/2" s2="3/6" s3="4/6"></resultados>
+        </p6>
+        <p7>
+            <fecha fecha="15 de junio"> </fecha>
+            <jugadores j1="Candela Muñoz" j2="Manuel Ruiz"></jugadores>
+            <resultados s1="6/2" s2="6/4" s3="6/1"></resultados>
+        </p7>
+        <p8>
+            <fecha fecha="18 de junio"> </fecha>
+            <jugadores j1="Sandra Ruiz" j2="Javier Fernandez"></jugadores>
+            <resultados s1="6/2" s2="3/6" s3="2/6"></resultados>
+        </p8>
+        <p9>
+            <fecha fecha="24 de junio"> </fecha>
+            <jugadores j1="Rafael Perez" j2="Josue Valor"></jugadores>
+            <resultados s1="6/2" s2="6/0" s3="6/0"></resultados>
+        </p9>
+        <p10>
+            <fecha fecha="28 de junio"> </fecha>
+            <jugadores j1="Luis Bermudez" j2="Juan Velasquez"></jugadores>
+            <resultados s1="6/2" s2="3/6" s3="6/1"></resultados>
+        </p10>
+    </partido>
+
+
+
+</torneo>

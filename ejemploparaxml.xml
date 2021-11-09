@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejemploparaxml SYSTEM "ejemploparaxml.dtd">
+<Libro catalogo="Terror">
+    <Titulo>La semilla de Chucky</Titulo>
+    <Seccion>Terror</Seccion>
+    <SubSeccion>Thriller</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+         <Tema>Hola</Tema>
+        </Capitulo>
+      <Separacion></Separacion>
+    </Contenido>
+        <Copyright>Si</Copyright>
+</Libro>
