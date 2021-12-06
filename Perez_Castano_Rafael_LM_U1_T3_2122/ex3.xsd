@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name = "shiporder">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "orderperson"/>
+<xs:element name = "shipto">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: string" name = "address"/>
+<xs:element type = " xs: string" name = "city"/>
+<xs:element type = " xs: string" name = "country"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "item"  maxOccurs="unbounded" minOccurs="0" >
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "title"/>
+<xs:element type = " xs: string" name = "note"/>
+<xs:element type = " xs: byte" name = "quantity"/>
+<xs:element type = " xs: float" name = "price"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+<xs:attribute type = "xs:string" name = "xmlns:xsi"/>
+</xs:complexType>
+</xs:element>
+</xs:schema>

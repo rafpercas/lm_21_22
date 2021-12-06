@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ejemploparaxml SYSTEM "ejemploparaxml.dtd">
+<!DOCTYPE ejemploparaxml SYSTEM "ej2.dtd">
 <Libro catalogo="Terror">
     <Titulo>La semilla de Chucky</Titulo>
     <Seccion>Terror</Seccion>

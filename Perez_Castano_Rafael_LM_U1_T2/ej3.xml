@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ejemploparadtd SYSTEM "ejemploparadtd.dtd">
-<relacion>
+<relacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ej3.xsd">
    <persona sexo="hombre" carnet="A1111">
      <nombre>Luis Martin</nombre>
      <email>luis@hotmail.com</email>

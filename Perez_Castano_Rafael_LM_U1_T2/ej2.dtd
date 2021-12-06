@@ -1,4 +1,4 @@
-<!DOCTYPE ejemploparaxml 
+<!DOCTYPE ej2
 [
 <!ELEMENT Libro (Titulo, Seccion, SubSeccion?, Contenido, Copyright)>
 <!ATTLIST Libro Catalogo CDATA #REQUIRED>

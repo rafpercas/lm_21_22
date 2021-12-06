@@ -1,4 +1,4 @@
-<!DOCTYPE ejemploparadtd
+<!DOCTYPE ej1
 [
 <!ELEMENT relacion (persona+)>
 <!ELEMENT persona (nombre,email,parentesco)>
