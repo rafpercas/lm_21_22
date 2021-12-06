@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="border-color: mediumblue;">
+            <h1>Reservation Request</h1>
+            <fieldset>
+
+                <head>General information</head>
+                <table>
+                    <tr>
+                        <td><label for="arrival date">Arrival date:</label></td>
+                        <td><input type="date" name="arrival date" id="arrival date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nights">Nights:</label></td>
+                        <td><input type="number" name="nights" id="nights"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adults">Adults:</label></td>
+                        <td><select name="alduts" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="children">Children:</label></td>
+                        <td><select name="children" id="children">
+                                <option value="0"></option>
+                                <option value="1">1</option>
+                            </select></td>
+                    </tr>
+
+
+                </table>
+            </fieldset>
+            <fieldset>
+
+                <head> Preferences </head><br>
+                <label for="room">Room type: </label>
+                <input type="radio" name="room" id="room">Standard
+                <input type="radio" name="room" id="room">Bussiness
+                <input type="radio" name="room" id="room">Suite <br>
+                <label for="bed">Bed type: </label>
+                <input type="radio" name="bed" id="bed">King
+                <input type="radio" name="bed" id="bed">Double Double <br>
+                <input type="checkbox" name="smoking" id="smoking">
+                <label for="smoking">Smoking</label>
+
+            </fieldset>
+            <fieldset>
+
+                <head>Contact information</head>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone:</label></td>
+                        <td><input type="tel" name="phone" id="phone"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit">Submit Reservation</button>
+            <button type="reset">Clear</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
