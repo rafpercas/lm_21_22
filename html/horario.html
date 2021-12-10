@@ -1,81 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #96D4D4;
-}
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/html/css/estiloss.css" media="screen" />
 </head>
+
 <body>
-    <table>
-        <tr>
-          <th colspan="2">Lunes</th>
-          <th>Martes</th>
-          <th>Miércoles</th>
-          <th>Jueves</th>
-          <th>Viernes</th>
-        </tr>
-        <tr>
-          <td>15:15</td>
-          <td>Programación</td>
-          <td>Bases de datos</td>
-          <td>Programación</td>
-          <td>Programación</td>
-          <td>Bases de datos</td>
-        </tr>
-        <tr>
-          <td>16:15</td>
-          <td>Programación</td>
-          <td>Bases de datos</td>
-          <td>Programación</td>
-          <td>Programación</td>
-          <td>Bases de datos</td>
-        </tr>
-        <tr>
-            <td>17:15</td>
-            <td>Fol</td>
-            <td>LM</td>
-            <td>Programación</td>
-            <td>Programación</td>
-            <td>Bases de datos</td>
-        </tr> 
-       <tr>
-            <td>18:15</td>
-            <td style="text-align:center;" colspan="6"> R E C R E O</td> 
-        </tr>   
-      <tr>
-            <td>18:30</td>
-            <td>Fol</td>
-            <td>ED</td>
-            <td>Bases de datos</td>
-            <td>SI</td>
-            <td>LM</td>
-        </tr>   
-        <tr>
-            <td>19:30</td>
-            <td>SI</td>
-            <td>ED</td>
-            <td>Fol</td>
-            <td>SI</td>
-            <td>LM</td>
-        </tr>
-        <tr>
-            <td>20:30</td>
-            <td>SI</td>
-            <td>ED</td>
-            <td>SI</td>
-            <td>SI</td>
-            <td>LM</td>
-        </tr>
-      </table> 
+  <table>
+    <caption>Horario de clase curso 2021/2022</caption>
+    <tr class="dias">
+      <th>Horas</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+    <tr>
+      <td class="horas">15:15</td>
+      <td class="programacion" rowspan="2">Programación</td>
+      <td class="bbdd" rowspan="2">BBDD</td>
+      <td class="programacion" rowspan="3">Programación</td>
+      <td class="programacion" rowspan="3">Programación</td>
+      <td class="bbdd" rowspan="3">BBDD</td>
+    </tr>
+    <tr>
+      <td class="horas">16:15</td>
+
+    </tr>
+    <tr>
+      <td class="horas">17:15</td>
+      <td class="fol">Fol</td>
+      <td class="lm">LM</td>
+    </tr>
+    <tr>
+      <td class="horas">18:15</td>
+      <td class="recreo" style="text-align:center;" colspan="6"> R E C R E O</td>
+    </tr>
+    <tr>
+      <td class="horas">18:30</td>
+      <td class="fol">Fol</td>
+      <td class="ed" rowspan="3">ED</td>
+      <td class="bbdd">BBDD</td>
+      <td class="si" rowspan="3">SI</td>
+      <td class="lm" rowspan="3">LM</td>
+    </tr>
+    <tr>
+      <td class="horas">19:30</td>
+      <td class="si" rowspan="2">SI</td>
+      <td class="fol">Fol</td>
+    </tr>
+    <tr>
+      <td class="horas">20:30</td>
+      <td class="si">SI</td>
+    </tr>
+  </table>
 </body>
+
 </html>

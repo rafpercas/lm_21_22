@@ -1,0 +1,47 @@
+.cabecera{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 3%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+}
+#textoderecha{
+    text-align: right;
+}
+.menu{
+    background-color:  rgb(60, 97, 60);
+    color: white;
+    display: flex;
+    padding-right: 5px;
+    
+}
+li:hover{
+    background-color: white;
+    color: black;
+}
+.mprincipal{
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+.timagen{
+    width: 100px;
+    height: 100px;
+}
+.imagencentro{
+    display: inline-block;
+
+}
+.fondoblanco{
+    background-color: white;
+    display: ;
+}
+.centrartodo{
+    text-align: center;
+}

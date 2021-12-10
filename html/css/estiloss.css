@@ -1,0 +1,43 @@
+table, th,td,tr{
+    text-align: center;
+    border: solid;border-collapse: collapse;
+    font-size: 120%;
+}
+
+.programacion {
+background-color: aquamarine;
+}
+.fol{
+    background-color: yellowgreen;
+}
+.si{
+    background-color: tomato;
+}
+.bbdd{
+    background-color: goldenrod;
+}
+.lm{
+    background-color: indigo;
+    color: white;
+    border-color: black;
+}
+.ed{
+    background-color: green;
+}
+.recreo{
+    background-color: teal;
+}
+.horas{
+    background-color: pink;
+}
+.dias{
+    background-color: royalblue;
+}
+
+th::first-letter {
+    font-size: 150%;
+  }
+caption::first-line{
+    color: green;
+    font-size: 120%;
+}
