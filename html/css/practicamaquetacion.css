@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    width: 700px;
+}
+
+body{
+    background-color: grey;
+    text-align: center;
+}
+nav{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+nav div{
+    display: inline;
+    padding: 4%;
+    margin: 3%;
+}
+
