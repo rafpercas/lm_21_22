@@ -25,7 +25,7 @@
 }
 .menu li{
     color: white;
-    display: inline;
+    display: inline-block;
     padding-right: 1cm;
 }
 .fondomenu{
@@ -41,7 +41,7 @@
 }
 .cuadroimagen{
     background-color: grey;
-    margin: 1cm;
+    margin: 2cm;
     margin-top: 0.5cm;
 }
 .lista{
