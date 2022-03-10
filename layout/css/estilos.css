@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    display: flex;
+}
+
+
+body {
+    background-image: url(../img/telon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    margin: 20px auto;
+    width: 90%;
+}
+
+
+header {
+    display: flex;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    width: 5%;
+    height: 55%;
+}
+
+header p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    height: 400px;
+    text-align: center;
+    width: 90%;
+}
+
+main p {
+    margin: 0%;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main img {
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+main div {
+    padding: 0%;
+    margin: 1%;
+}
+
+main div:nth-child(2) {
+    display: flex;
+}
+
+main div :nth-child(2) {
+    color: yellow;
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+article {
+    border-radius: 1em;
+    height: 190px;
+    text-align: center;
+    width: 32%;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+
+}
+
+article img {
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+
+footer {
+    background-color: black;
+    align-items: center;
+    border-top: 1px solid #666666;
+    display: flex;
+    margin-top: 1em;
+    padding: 2em;
+}
+
+.indicez {
+    z-index: 11;
+}
