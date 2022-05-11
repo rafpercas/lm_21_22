@@ -1,0 +1,57 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    grid-template-rows: 10% 10% 60% 10%;
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+header img{
+    width: 250px;
+    height: 70px;
+}
+
+header aside img{
+    width: 25px;
+    height: 25px;
+}
+header :nth-child(2){
+
+}
+nav{
+
+    grid-column: 1 /-1;
+    grid-row: 2 / 3;
+}
+nav ul{
+    height: 30px;
+    background-color: rgb(243, 95, 186);
+    justify-items: start;
+    color: white;
+}
+nav ul li{
+    display: inline-flex;
+    margin-left: 30px;
+
+}
+
+main{
+    grid-column: 1/-1;
+    grid-row: 3/3;
+}
+footer{
+    grid-column: 1/-1;
+    grid-row: 5/5;
+    text-align: center;
+    background-color: rgb(243, 95, 186);   
+color: white;}
