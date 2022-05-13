@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+.container {
+
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 10px;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 100px 80px 200px 280px 80px;
+    grid-template-areas: 
+        "he he"
+        "na na"
+        "ban tw"
+        "obj tw"
+        "fo fo";
+    margin: 20px auto;
+    width: 80%;
+}
+
+header div img {
+    height: 100%;
+}
+
+header aside img {
+    height: 30%;
+
+}
+
+header {
+    grid-area: he;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+nav {
+    grid-area: na;
+    background-color: pink;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    padding-left: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+}
+
+li:hover {
+    background-color: #6872fd81;
+    border-radius: 5px;
+}
+
+#ban {
+    grid-area: ban;
+    background-color: blueviolet;
+    position: relative;
+}
+
+#ban img {
+    height: 100%;
+    width: 100%;
+}
+
+#ban :nth-child(2) {
+    position:absolute;
+    top: 79%;
+    right: 46%;
+    color: rgb(255, 75, 105);
+    font-weight: bolder;
+}
+
+#ban :nth-child(3) {
+    position:absolute;
+    top: 50%;
+    right: 3%;
+    color: rgb(255, 75, 105);
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+#ban :nth-child(4) {
+    position:absolute;
+    top: 50%;
+    right: 95%;
+    color: rgb(255, 75, 105);
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+#tw {
+    grid-area: tw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#tw h3 {
+    font-weight: 900;
+}
+
+#tw img {
+    height: 80%;
+}
+
+#obj {
+    grid-area: obj;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+#obj div {
+    border: 1px solid #8d1f5f;
+    border-radius: 1em;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#obj div img{
+    width: 80%;
+    margin: auto;
+}
+
+#fo {
+    grid-area: fo;
+    background-color: #ff0095;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
