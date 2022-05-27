@@ -8,16 +8,16 @@
     display: grid;
     grid-auto-flow: row;
     grid-row-gap: 10px;
-    grid-template-columns: 70% auto;
-    grid-template-rows: 100px 80px 200px 280px 80px;
+    grid-template-columns: 75% auto;
+    grid-template-rows: 90px 80px 180px 260px 80px;
     grid-template-areas: 
-        "he he"
-        "na na"
-        "ban tw"
-        "obj tw"
-        "fo fo";
+        "header header"
+        "nav nav"
+        "banner twitter"
+        "objects twitter"
+        "footer footer";
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
 }
 
 header div img {
@@ -30,15 +30,15 @@ header aside img {
 }
 
 header {
-    grid-area: he;
+    grid-area: header;
     display: flex;
     justify-content: space-between;
     text-align: right;
 }
 
 nav {
-    grid-area: na;
-    background-color: pink;
+    grid-area: nav;
+    background-color: #f10d92;
     color: white;
 }
 
@@ -54,73 +54,75 @@ li {
 }
 
 li:hover {
-    background-color: #6872fd81;
-    border-radius: 5px;
+    background-color: #ffffff;
+    color: #f10d92;
 }
 
-#ban {
-    grid-area: ban;
-    background-color: blueviolet;
+#banner {
+    grid-area: banner;
+    background-color: #f10d92;
     position: relative;
 }
 
-#ban img {
+#banner img {
     height: 100%;
     width: 100%;
 }
 
-#ban :nth-child(2) {
+#banner :nth-child(2) {
     position:absolute;
-    top: 79%;
-    right: 46%;
-    color: rgb(255, 75, 105);
+    top: 80%;
+    right: 50%;
+    color: #f10d92;
     font-weight: bolder;
 }
 
-#ban :nth-child(3) {
+#banner :nth-child(3) {
     position:absolute;
-    top: 50%;
-    right: 3%;
-    color: rgb(255, 75, 105);
+    top: 55%;
+    right: 5%;
+    color: #f10d92;
     font-weight: bolder;
     font-size:xx-large;
 }
 
-#ban :nth-child(4) {
+#banner :nth-child(4) {
     position:absolute;
-    top: 50%;
+    top: 55%;
     right: 95%;
-    color: rgb(255, 75, 105);
+    color: #f10d92;
     font-weight: bolder;
     font-size:xx-large;
 }
 
-#tw {
-    grid-area: tw;
+#twitter {
+    grid-area: twitter;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    font-weight: bolder;
 }
 
-#tw h3 {
+#twitter h3 {
     font-weight: 900;
 }
 
-#tw img {
+#twitter img {
     height: 80%;
 }
 
-#obj {
-    grid-area: obj;
+#objects {
+    grid-area: objects;
     display: flex;
     justify-content: center;
     margin: 2em;
+    font-weight: bolder;
 }
 
-#obj div {
-    border: 1px solid #8d1f5f;
+#objects div {
+    border: 1px solid #f10d92;
     border-radius: 1em;
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,14 +131,14 @@ li:hover {
     text-align: center;
 }
 
-#obj div img{
+#objects div img{
     width: 80%;
     margin: auto;
 }
 
-#fo {
-    grid-area: fo;
-    background-color: #ff0095;
+footer {
+    grid-area: footer;
+    background-color: #f10d92;
     color: white;
     padding: 0.5em;
     text-align: center;
